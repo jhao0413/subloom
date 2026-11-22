@@ -1,0 +1,36 @@
+asr_provider = "whisper-cpp"
+asr_base_url = "https://api.openai.com/v1"
+asr_model = "whisper-1"
+asr_key_env = "OPENAI_API_KEY"
+translation_base_url = "https://api.openai.com/v1"
+translation_model = "gpt-4o-mini"
+translation_key_env = "OPENAI_API_KEY"
+
+whisper_cpp_cli = "whisper-cli"
+whisper_cpp_model = "~/Library/Application Support/Vimpo/models/ggml-large-v3-turbo-q5_0.bin"
+moss_cli = "transcribe-cli"
+moss_model = "~/Library/Application Support/Vimpo/models/MOSS-Transcribe-Diarize-Q5_K_M.gguf"
+native_backend = "auto"
+native_threads = 4
+native_timeout_seconds = 3600
+moss_diarize = true
+
+local_model = "small"
+local_device = "cpu"
+local_compute_type = "int8"
+
+chunk_seconds = 600
+batch_size = 30
+context_segments = 3
+
+segmenter = "natural"
+segment_max_chars = 84
+segment_max_duration = 6.0
+segment_min_duration = 0.8
+segment_pause_seconds = 0.6
+
+font = "PingFang SC"
+font_size = 20
+ffmpeg = "ffmpeg"
+ffprobe = "ffprobe"
+yt_dlp = "yt-dlp"

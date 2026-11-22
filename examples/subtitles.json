@@ -1,0 +1,19 @@
+{
+  "target_language": "zh-CN",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0,
+      "end": 2,
+      "text": "Subloom: download, transcribe, translate.",
+      "translation": "下载视频、转录内容、翻译字幕。"
+    },
+    {
+      "id": 1,
+      "start": 2,
+      "end": 4,
+      "text": "Edit subtitles and export your video.",
+      "translation": "修改字幕，然后导出视频。"
+    }
+  ]
+}
